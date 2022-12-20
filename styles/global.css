@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
     [data-nextjs-scroll-focus-boundary] {
       display: contents;
@@ -42,7 +47,3 @@
   [data-nextjs-scroll-focus-boundary] {
     display: contents;
   }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

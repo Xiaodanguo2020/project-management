@@ -130,3 +130,5 @@ const AuthForm = ({ mode }) => {
     </Card>
   );
 };
+
+export default AuthForm;
