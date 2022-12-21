@@ -25,3 +25,5 @@ const Sidebar = () => {
     </Card>
   );
 };
+
+export default Sidebar;

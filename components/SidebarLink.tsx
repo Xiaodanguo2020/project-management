@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { Settings, User, Grid } from "react-feather";
+import { Settings, User, Grid, Calendar } from "react-feather";
 
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 
-const icons = { Settings, User, Grid };
+const icons = { Settings, User, Grid, Calendar };
 const SidebarLink = ({ link }) => {
   const pathname = usePathname();
 
